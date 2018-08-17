@@ -72,7 +72,9 @@
     $("#myElement").click( function () {
         alert("myElement was clicked!")
     });
-    $("body").css("background-color", "green");
-    $("div").find(div).css({"color":"white"})
+    $("#myElement div:first").css("backgroundColor", "green");
+    $("#myElement div:first").css({"color":"white"})
+    $("#myElement div:last").css("backgroundColor","orange");
+    $("#myElement div:last").css("color"," pink")
 </script>
 </html>
